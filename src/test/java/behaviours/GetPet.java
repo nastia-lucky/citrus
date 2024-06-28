@@ -4,7 +4,6 @@ import com.consol.citrus.TestActionRunner;
 import com.consol.citrus.TestBehavior;
 import com.consol.citrus.context.TestContext;
 import org.springframework.http.HttpStatus;
-
 import static com.consol.citrus.dsl.JsonPathSupport.jsonPath;
 import static com.consol.citrus.http.actions.HttpActionBuilder.http;
 
