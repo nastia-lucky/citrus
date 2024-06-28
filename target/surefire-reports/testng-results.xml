@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-28T15:39:29 CEST" name="Surefire suite" finished-at="2024-06-28T15:39:31 CEST" duration-ms="2116">
+    <groups>
+    </groups>
+    <test started-at="2024-06-28T15:39:29 CEST" name="Surefire test" finished-at="2024-06-28T15:39:31 CEST" duration-ms="2116">
+      <class name="tests.soapTests.SOAPTests">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:28 CEST" name="beforeSuite" finished-at="2024-06-28T15:39:29 CEST" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37806be6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:29 CEST" name="springTestContextBeforeTestClass" finished-at="2024-06-28T15:39:29 CEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:29 CEST" name="springTestContextPrepareTestInstance" finished-at="2024-06-28T15:39:29 CEST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="before()[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:29 CEST" name="before" finished-at="2024-06-28T15:39:29 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:29 CEST" name="springTestContextBeforeTestMethod" finished-at="2024-06-28T15:39:29 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.soapTests.SOAPTests.soapTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="soapTest()[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:29 CEST" name="soapTest" finished-at="2024-06-28T15:39:30 CEST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soapTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:30 CEST" name="springTestContextAfterTestMethod" finished-at="2024-06-28T15:39:30 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.soapTests.SOAPTests.soapTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:30 CEST" name="springTestContextAfterTestClass" finished-at="2024-06-28T15:39:30 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:30 CEST" name="after" finished-at="2024-06-28T15:39:30 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:tests.soapTests.SOAPTests@26fb628]" started-at="2024-06-28T15:39:31 CEST" name="afterSuite" finished-at="2024-06-28T15:39:31 CEST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37806be6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.soapTests.SOAPTests -->
+      <class name="tests.restTests.CreatePetTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:30 CEST" name="springTestContextBeforeTestClass" finished-at="2024-06-28T15:39:30 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:30 CEST" name="springTestContextPrepareTestInstance" finished-at="2024-06-28T15:39:30 CEST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="before()[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:30 CEST" name="before" finished-at="2024-06-28T15:39:30 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:30 CEST" name="springTestContextBeforeTestMethod" finished-at="2024-06-28T15:39:30 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.restTests.CreatePetTest.createPet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="createPet()[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:30 CEST" name="createPet" finished-at="2024-06-28T15:39:31 CEST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:31 CEST" name="springTestContextAfterTestMethod" finished-at="2024-06-28T15:39:31 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.restTests.CreatePetTest.createPet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:31 CEST" name="springTestContextAfterTestClass" finished-at="2024-06-28T15:39:31 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method is-config="true" signature="after()[pri:0, instance:tests.restTests.CreatePetTest@191ae03f]" started-at="2024-06-28T15:39:31 CEST" name="after" finished-at="2024-06-28T15:39:31 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.restTests.CreatePetTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
